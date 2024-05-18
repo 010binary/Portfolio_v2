@@ -1,9 +1,10 @@
 import React from "react";
+import Object from "./contact-utils/object";
 
 const Contact = () => {
   return (
-    <div>
-      
+    <div className="rounded w-fit h-auto">
+      <Object />
     </div>
   );
 };

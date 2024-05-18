@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} overflow-y-auto scrollbar-w-5 scrollbar-track-transparent scrollbar-thumb-primary-color hover:scrollbar-thumb-black"`}>{children}</body>
     </html>
   );
 }

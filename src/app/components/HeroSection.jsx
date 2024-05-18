@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Welcome! I'm Augustine Chukwuemeka, a seasoned full-stack software
+            engineer with over 2 years of hands-on experience in the field.
           </p>
           <div>
             <Link
