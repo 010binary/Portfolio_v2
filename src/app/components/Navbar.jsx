@@ -1,11 +1,10 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import NavLink from "./NavLink";
+import NavLink from "./Navbar-utils/NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import { Logo } from "../../../public/images";
-import MenuOverlay from "./MenuOverlay";
-import Image from "next/image";
+import Logo from "./Navbar-utils/Logo";
+import MenuOverlay from "./Navbar-utils/MenuOverlay";
 
 const navLinks = [
   {
@@ -32,9 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold flex items-center justify-center"
         >
-          <Image src={Logo} alt="hero image" className="w-12 h-15" />
-          <span className="w-1 mx-5 bg-themeblue h-20 "></span>
-          <h1 className="text-themeblue">Alpha</h1>
+          <Logo x={12} y={15} />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

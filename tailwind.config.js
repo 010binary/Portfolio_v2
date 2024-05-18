@@ -19,6 +19,7 @@ module.exports = {
       primary: colors.blue,
       secondary: colors.blue,
       themeblue: "#0B94EB",
+      darkblues: "#077bc3"
     },
   },
   plugins: [],
