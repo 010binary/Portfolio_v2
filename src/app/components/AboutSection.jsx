@@ -61,8 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-themeblue mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Absolutely, here&rsquo;s a refined version: As a full-stack web
-            developer, I excel in blending creativity and technical prowess to
+            As a full-stack web developer, I excel in blending creativity and technical prowess to
             craft immersive digital experiences. Proficient in both front-end
             and back-end technologies, I wield HTML, CSS, JavaScript, React, and
             Next.js to breathe life into captivating user interfaces

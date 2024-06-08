@@ -4,6 +4,8 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Hire from "./Hero-utils/Hire";
+import Download from "./Hero-utils/Download";
 
 const HeroSection = () => {
   return (
@@ -37,23 +39,15 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Welcome! I'm Augustine Chukwuemeka, a seasoned full-stack software
+            Welcome! I&rsquo;m Augustine Chukwuemeka, a seasoned full-stack software
             engineer with over 2 years of hands-on experience in the field.
           </p>
-          <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Hire Me
+          <div className="flex">
+            <Link href="/#contact">
+              <Hire />
             </Link>
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+            <Link href="/">
+              <Download />
             </Link>
           </div>
         </motion.div>
